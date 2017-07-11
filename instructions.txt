@@ -1,0 +1,24 @@
+[Done} 1. Setup Github Repo.
+[Done] 2. Create page with 16x16 grid of square divs.
+  2.1 Use Javascript/jQuery
+  2.2 Put grid squares inside "container" div.
+  2.3 Add jQuery <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  2.4 Use float/clear, table, inline-block displays to create grid. 
+  2.5 Be mindful of border or margins. 
+  2.6 Troubleshooting grid: 
+    2.6.1 Utilize dev tools.
+    2.6.2 Check for errors in the Javascript console.
+    2.6.3 Check that elements exist.
+    2.6.4 Console.log statements to see .js file functional.
+[]3. Set up hover effect so square divs change color when mouse passes over, leaving a (pixelated) trail like a pen.
+  3.1 Hover = mouseenter div + mouseleave the div. 
+  3.2 Change color by adding new class (addClass()), changing div's background color individually, etc.
+[]4. Add button at top to clear current grid and send user popup asking for how many squares per side to make the new grid. New grid should be generated in same total space as before.
+  4.1 Research button tags in HTML and make a javascript function run when clicked.
+  4.2 Check out [prompt]s.
+  4.3 Be able to enter 64 and have a new 64x64 grid pop up without changing total amount of pixels.
+  4.4 Pull jQuery selector like $(".square") outside loops.
+  4.5 See how many grid squares before it becomes unusably slow.
+[]5. (Optional): Make divs change to random RGB value when mouse passes over. 
+  5.1 Then additional passes will add another 10% of black to it, so only   after 10 passes is the square completely black.
+[]6. Push your project to Github. 

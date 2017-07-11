@@ -1,0 +1,20 @@
+body {
+  text-align: center;
+}
+
+#container {
+  display: inline-block;
+  height: 600px;
+  width: 600px;
+  line-height: 0;
+}
+
+.square {
+  outline: 1px solid #000;
+  display: inline-block;
+  text-align: center;
+}
+
+.sketch {
+  background-color: #000;
+}
